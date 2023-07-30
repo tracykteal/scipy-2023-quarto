@@ -1,0 +1,159 @@
+---
+title: "Scientific and technical publishing with Quarto"
+subtitle: "Tracy Teal, Open Source Program Director, Posit"
+title-slide-attributes: 
+  data-background-color: white
+  data-background-image: _extensions/positslides/assets/backgrounds/sample-title-slide-option-1.png
+  data-background-size: contain
+format:
+  revealjs: 
+    width: "1600"
+    height: "900"
+    filters:
+      - positslides
+---
+
+## If a data science analysis happens in the woods, and no one is around to hear it, does it make an impact?
+
+![](images/trees-unsplash.jpg){fig-align="center"}
+
+<center>~Photo by [Sebastian Unrau](https://unsplash.com/@sebastian_unrau?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/wallpapers/nature/forest?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)~</center>
+
+## If we want to use data to ....
+
+-   Make decisions
+
+-   Answer scientific questions
+
+-   Inform people on issues
+
+-   Conduct journalism
+
+-   And many other things
+
+<center>
+
+### **Data analysis is not enough**
+
+(Which is somewhat disappointing)
+
+</center>
+
+## Sharing an analysis is different set of skills and tools
+
+![](images/replicate-filter-01.png)
+
+## What are some of the challenges you face when sharing and publishing your data science analyses?
+
+::: columns
+::: {.column width="40%"}
+![](images/people.jpg)
+:::
+
+::: {.column width="60%"}
+#### Turn to the person next to you and briefly discuss.
+
+-   One thing that's going well.
+
+-   One thing that could be better.
+:::
+:::
+
+## Jupyter: a project that transformed science
+
+![](images/jupyterlab-img.png)
+
+## Quarto: the last mile of scientific publishing
+
+Quarto is an open-source scientific and technical publishing system that builds on standard Pandoc markdown.
+
+<center>![](images/jupyter-quarto-preview.png)</center>
+
+## Rendering Jupyter notebooks to HTML
+
+{{< video images/quarto-python15.mp4 >}}
+
+## Rendering Jupyter notebooks
+
+When you render a Jupyter notebook with Quarto, the contents of the notebook (code, markdown, and outputs) are converted to plain markdown and then processed by Pandoc, which creates the finished format.
+
+![](images/ipynb-how-it-works-01.png){fig-align="center"}
+
+## Rendering to multiple formats
+
+{{< video images/multi-formats.mp4 >}}
+
+## Markdown and Code Cells
+
+You can use any valid markdown syntax in these cells.
+
+![](images/jupyter-markdown-01.png)
+
+For code cells, there are some new components at the top of the code cell: `label` and `fig-cap` options. Cell options are written in YAML using a specially prefixed comment (`#|`).
+
+![](images/jupyter-cell-01.png)
+
+## Cross-referencing figures and tables
+
+{{< video images/crossrefs-figures.mp4 >}}
+
+## Jupyter Notebook Cell Embedding
+
+{{< video images/embed.mp4 >}}
+
+## Citations
+
+{{< video images/citations.mp4 >}}
+
+## Publishing
+
+<center>![](images/quarto-publishing.png)</center>
+
+## "Scientists are going to be able to spend more time with their families, go outside, and restore friendships because they don't have to spend so much time formatting their articles."
+
+Carlos Scheidegger
+
+## Learn, try and see more
+
+![](images/jupyter-start.png)
+
+![](images/jupyter-guide.png)
+
+## Coming soon: manuscripts
+
+{{< video images/manuscript-demo.mp4 >}}
+
+## Quarto: The first mile
+
+Quarto is the last mile, but it can also be the first mile.
+
+<center>![](images/formats2.png)</center>
+
+## Creating a website using VS Code
+
+::: columns
+::: {.column width="40%"}
+![](images/vscode1-01.png)
+:::
+
+::: {.column width="60%"}
+![](images/vscode2-01.png)
+:::
+:::
+
+## Interactive documents with Quarto + Shiny
+
+{{< video images/shiny2.mp4 >}}
+
+## Make publishing fun ~~again~~ for the first time
+
+### Where to learn more
+
+https://quarto.org/
+
+https://shiny.posit.co/
+
+
+Come by the Posit booth here!
+
+
